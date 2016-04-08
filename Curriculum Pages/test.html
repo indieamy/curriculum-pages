@@ -23,7 +23,8 @@
   <div class="container-fluid"> 
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <a class="navbar-brand" href="#"><img src="images/myavid-logo.jpg"></a></div>
+      <a class="navbar-brand" href="#"><img src="images/myavid-logo.jpg"></a>
+    </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="defaultNavbar1">
       <form class="navbar-form navbar-right" role="search">
@@ -32,32 +33,35 @@
         </div>
         <button type="submit" class="btn submit">Submit</button>
       </form>
+
       <ul class="nav navbar-nav navbar-right">
-      <div class="nav navbar-nav dropdown">
-  <button class="btn welcome dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    Welcome, Amy
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu profile" aria-labelledby="dropdownMenu1">
-    <li><a href="#">My Profile</a></li>
-    <li><a href="#">Settings</a></li>
-    <li role="separator" class="divider log-out"></li>
-    <li><a href="#">Log Out</a></li>
-  </ul>
-</div>
- <li><img src="images/test-user.jpg" class="img-circle"></li>
+        <div class="nav navbar-nav dropdown">
+            <button class="btn welcome dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Welcome, Amy
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu profile" aria-labelledby="dropdownMenu1">
+                <li><a href="#">My Profile</a></li>
+                <li><a href="#">Settings</a></li>
+                <li role="separator" class="divider log-out"></li>
+                <li><a href="#">Log Out</a></li>
+            </ul>
+        </div>
+
+        <li><img src="images/test-user.jpg" class="img-circle"></li>
       </ul>
+
       <div class="social">
-      <ul class="nav navbar-nav navbar-right">
-          <li><img src="images/facebook-icon.jpg" width="32"></li>
-      	  <li><img src="images/twitter-icon.jpg" width="32"></li>
-      	  <li><img src="images/instagram-icon.jpg" width="32"></li>
-      	  <li><img src="images/pinterest-icon.jpg" width="32"></li>
-      	  <li><img src="images/google-plus-icon.jpg" width="32"></li>
-      <li><img src="images/linkedin-icon.jpg" width="32"></li>
-      <li id="youtube"><img src="images/youtube-icon.jpg" width="32"></li>
-</ul>
-</div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><img src="images/facebook-icon.jpg" width="32"></li>
+            <li><img src="images/twitter-icon.jpg" width="32"></li>
+      	    <li><img src="images/instagram-icon.jpg" width="32"></li>
+      	    <li><img src="images/pinterest-icon.jpg" width="32"></li>
+      	    <li><img src="images/google-plus-icon.jpg" width="32"></li>
+            <li><img src="images/linkedin-icon.jpg" width="32"></li>
+            <li id="youtube"><img src="images/youtube-icon.jpg" width="32"></li>
+        </ul>
+      </div>
     </div>
     <!-- /.navbar-collapse --> 
   </div>
@@ -67,82 +71,95 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid"> 
     <div class="navbar-header">
-</div>
-  <div class="row">
-    <div class="col-md-9 col-md-offset-2 text-center">
-    <ul class="nav nav-pills">
-    <li role="presentation" class="home"><a href="#">Home</a></li>
-<li class="dropdown elementary"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Elementary</a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Certification</a></li>
-          <li><a href="#">Data Entry System</a></li>
-      </ul>
-</li>
-<li class="dropdown secondary"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Secondary </a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Certification</a></li>
-          <li><a href="#">Curriculum</a></li>
-          <li><a href="#">Data Entry System</a></li>
-<li class="dropdown-submenu">
-          	<a tabindex="-1" href="#">Weeks at a Glance</a>
-<ul class="dropdown-menu">
-				  <li><a tabindex="-1" href="#">6th Grade</a></li>
-				  <li><a tabindex="-1" href="#">7th Grade</a></li>
-				  <li><a tabindex="-1" href="#">8th Grade</a></li>
-                  <li><a tabindex="-1" href="#">9th Grade</a></li>
-                  <li><a tabindex="-1" href="#">10th Grade</a></li>
-                  <li><a tabindex="-1" href="#">11th Grade</a></li>
-                  <li><a tabindex="-1" href="#">12th Grade</a></li>
-                  <li><a tabindex="-1" href="#">Sub/Sponge Day</a></li>
-      </ul>
-      </li>
-        </ul>
-</li>
-<li class="dropdown higher-ed"><a href="#" data-toggle="dropdown" class="dropdown-toggle">AHE</a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Certification</a></li>
-          <li><a href="#">Data Entry System</a></li>
-          <li><a href="#">On Demand Modules</a></li>
-        </ul>
-</li>
-      <li class="dropdown resource"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Resources</a>
-        <ul class="dropdown-menu">
-        <li class="dropdown-submenu">
-          	<a tabindex="-1" href="#">Modules</a>
-				<ul class="dropdown-menu">
-				  <li><a tabindex="-1" href="#">On Demand Modules</a></li>
-                  <li><a tabindex="-1" href="#">Summer Bridge Modules</a></li>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNavBar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+
+      <div class="collapse navbar-collapse" id="mainNavBar">
+          <ul class="nav nav-pills">
+              <li role="presentation" class="home"><a href="#">Home</a> </li>
+              <li class="dropdown elementary"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Elementary</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Certification</a></li>
+                        <li><a href="#">Data Entry System</a></li>
+                    </ul>
+              </li>
+              <li class="dropdown secondary"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Secondary</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Certification</a></li>
+                        <li><a href="#">Curriculum</a></li>
+                        <li><a href="#">Data Entry System</a></li>
+
+                        <li class="dropdown-submenu"><a tabindex="-1" href="#">Weeks at a Glance</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="#">6th Grade</a></li>
+                                <li><a tabindex="-1" href="#">7th Grade</a></li>
+                                <li><a tabindex="-1" href="#">8th Grade</a></li>
+                                <li><a tabindex="-1" href="#">9th Grade</a></li>
+                                <li><a tabindex="-1" href="#">10th Grade</a></li>
+                                <li><a tabindex="-1" href="#">11th Grade</a></li>
+                                <li><a tabindex="-1" href="#">12th Grade</a></li>
+                                <li><a tabindex="-1" href="#">Sub/Sponge Day</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+              </li>
+
+              <li class="dropdown higher-ed"><a href="#" data-toggle="dropdown" class="dropdown-toggle">AHE</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Certification</a></li>
+                        <li><a href="#">Data Entry System</a></li>
+                        <li><a href="#">On Demand Modules</a></li>
+                    </ul>
+              </li>
+
+              <li class="dropdown resource"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Resources</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu"><a tabindex="-1" href="#">Modules</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="#">On Demand Modules</a></li>
+                                <li><a tabindex="-1" href="#">Summer Bridge Modules</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">File Sharing</a></li>
+                        <li><a href="#">Event Registration</a></li>
+                        <li><a href="#">Critical Learning and Engagement</a></li>
+                        <li><a href="#">Summer Institute Launches &amp; Boosts</a></li>
+                    </ul>
+              </li>
+
+              <li class="dropdown med"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Media</a>
+                  <ul class="dropdown-menu">
+                      <li><a href="#">Blog</a></li>
+                      <li><a href="#">Discussion Forum</a></li>
+                      <li><a href="#">Videos</a></li>
+                  </ul>
+              </li>
+
+              <li class="estore"><a href="#">eStore</a></li>
+
+              <li class="dropdown contact"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Contact</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Contact AVID</a></li>
+                        <li><a href="#">Request AVID Logo</a></li>
+                    </ul>
+              </li>
+
+
           </ul>
-          <li><a href="#">File Sharing</a></li>
-          <li><a href="#">Event Registration</a></li>
-          <li><a href="#">Critical Learning and Engagement</a></li>
-          <li><a href="#">Summer Institute Launches &amp; Boosts</a></li>
-          </li>
-      </ul>
-      </li>
-      <li class="dropdown med"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Media</a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Discussion Forum</a></li>
-          <li><a href="#">Videos</a></li>
-          
-        </ul>
-      </li>
-            <li class="estore"><a href="#">eStore</a></li>
-      <li class="dropdown contact"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Contact</a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Help</a></li>
-          <li><a href="#">Contact AVID</a></li>
-          <li><a href="#">Request AVID Logo</a></li>
-		</ul>
-      </li>
-      </ul>
-  </div>
-</div>
-  <!-- /.container-collapse --> 
-  </div>
-    <!-- /.container-fluid --> 
-</nav>
+
+      </div>
+      </div>
+    </nav>
+
+
+
+
+
 <!--END MAIN NAVIGATION-->
 <!----------Chapter Header and Image---------->
 <div class="container-fluid">
